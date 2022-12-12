@@ -1,6 +1,6 @@
-package com.myapp.util;
+package com.example.util;
 
-import com.myapp.member.UserVO;
+import com.example.user.UserVO;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -16,7 +16,7 @@ public class LoginCheckInterceptor implements HandlerInterceptor {
         UserVO obj = (UserVO) session.getAttribute("login");
         if(obj == null){
             response.sendRedirect(request.getContextPath() + "/login/login");
-           // return false;
+            // return false;
         }
         return true;
     }

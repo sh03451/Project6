@@ -1,4 +1,4 @@
-package com.myapp.member;
+package com.example.user;
 
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

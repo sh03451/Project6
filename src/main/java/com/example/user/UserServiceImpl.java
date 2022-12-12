@@ -1,5 +1,5 @@
-package com.myapp.member;
-import com.myapp.member.UserDAO;
+package com.example.user;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 @Service
