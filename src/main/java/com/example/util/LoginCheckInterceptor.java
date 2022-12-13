@@ -16,7 +16,7 @@ public class LoginCheckInterceptor implements HandlerInterceptor {
         UserVO obj = (UserVO) session.getAttribute("login");
         if(obj == null){
             response.sendRedirect(request.getContextPath() + "/login/login");
-            // return false;
+            return false;
         }
         return true;
     }

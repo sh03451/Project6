@@ -14,12 +14,12 @@
     <style>
         img, label{display:inline-block;}
         label{ width:130px}
-        button {background-color:blue; color:white;font-size:15px}
+        button {background-color:pink; color:black;font-size:15px}
     </style>
 </head>
 <body>
 <div style='width:100%;text-align: center;padding-top:100px'>
-    <img src='../img/green.jpg' height="250">
+    <img src='../img/hong3.JPG' height="250">
     <form method="post" action="loginOk">
         <div><label>User ID: </label><input type="text" name='userid' /></div>
         <div><label>Password: </label><input type='password' name='password'/></div>
